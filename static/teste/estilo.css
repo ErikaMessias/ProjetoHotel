@@ -1,0 +1,87 @@
+body {
+    font-family: "Lato", sans-serif;
+    background-color: #ce3232;
+}
+.main-head{
+    height: px;
+    align-items: center;
+    justify-content: center;
+    background: #FFF;
+    background-color: #ce3232;
+   
+}
+
+.sidenav{
+    height: 100%;
+    background-color: #ce3232;
+    overflow-x: hidden;
+    padding-top: 190px;
+    align-items: center;
+}
+
+
+.main {
+    padding: 0px 10px;
+    background-color: #ce3232;
+}
+
+@media screen and (max-height: 450px) {
+    .sidenav {padding-top: 15px;}
+    .sidenav {background-color: #ce3232;}
+}
+
+@media screen and (max-width: 450px) {
+    .login-form{
+        margin-top: 10%;
+        background-color: #ce3232;
+    }
+
+    .register-form{
+        margin-top: 10%;
+        background-color: #ce3232;
+    }
+}
+
+@media screen and (min-width: 768px){
+    .main{
+        margin-left: 55%; 
+        width: 50%;
+        height: 100%;
+        background-color: #ce3232;
+
+    }
+
+    .sidenav{
+        width: 40%;
+        position: fixed;
+        z-index: 1;
+        top: 0;
+        left: 0;
+        background-color: #ce3232;
+    }
+
+    .login-form{
+        margin-top: 70%;
+        background-color: #ce3232;
+    }
+
+    .register-form{
+        margin-top: 20%;
+        background-color: #ce3232;
+    }
+}
+
+    .login-main-text{
+    margin-top: 20%;
+    padding: 60px;
+    color: #fff;
+    margin-left: 250px;
+    font-weight: 500px;
+    background-color: #ce3232;
+    }
+    
+    .btn{
+    background-color: #ce3232;
+    color: #fff;
+    width: 200px;
+}

@@ -1,0 +1,42 @@
+{%extends 'base.html'%}
+{% load static %}
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Reserva</title>
+</head>
+<body>
+    {%block 'conteudo' %}
+    <div class="contact-form">
+    <h2>Make your choice!</h2>
+    <form action="">
+        <p>Nome</p>
+        <input id="nome" name="nome" type="text">
+        <p>CPF</p>
+        <input id="cpf" name="cpf" type="text">
+        <p>Telefone</p>
+        <input id="telefone" name="cpf" type="text">
+        <p>Hotel</p>
+        <input id="hotel" name="hotel" type="text">
+        <p>Check-in</p>
+        <input id="check-in" name="check-in" type="date">
+        <p>Check-out</p>
+        <input id="check-out" name="check-out" type="date">
+        <p>Qtd quartos</p>
+        <select id="qtde" name="qtd" class="input-medium" multiple="multiple">
+            <option>1</option>
+            <option>2</option>
+            <option>3</option>
+            <option>4</option>
+            <option>5</option>
+            <option>...</option>
+        </select>
+        <input type="submit" value="Reservation">
+    </form>
+</div>
+{% endblock %}
+</body>
+</html>

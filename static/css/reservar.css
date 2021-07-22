@@ -1,0 +1,85 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Montserrat', sans-serif;
+}
+
+body:before{
+    content: '';
+    position: fixed;
+    width: 100vw;
+    height: 100vh;
+    background-image: url('https://congressmatters.com/images/how-to-build-a-wordpress-hotel-website-with-a-room-booking-engine.jpg');
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    -webkit-background-size: cover;
+    background-size: cover;
+
+}
+
+.contact-form{
+    position: absolute;
+    top: 50%;
+    left:50%;
+    -webkit-transform: translate(-50%,-50%);
+    -moz-transform: translate(-50%,-50%);
+    -ms-transform: translate(-50%,-50%);
+    -o-transform: translate(-50%,-50%);
+    transform: translate(-50%,-50%);
+    width: 450px;
+    padding: 80px 40px;
+    background: rgba(255, 255, 255, 0.801);
+    border-radius: 25px;
+    margin: 300px 0 50px 0;
+}
+
+.contact-form h2{
+    margin: 0;
+    padding: 0 0 20px;
+    color: black;
+    text-align: center;
+}
+
+.contact-form p{
+    margin: 0;
+    padding: 0;
+    color: black;
+}
+
+.contact-form input{
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+.contact-form input[type=date]{
+   border:none;
+   border-bottom: 1px solid #000;
+   background: transparent;
+   outline: none;
+   height: 35px;
+   color: black;
+   font-size: 15px
+}
+
+.contact-form input[type=text]{
+    border:none;
+    border-bottom: 1px solid #000;
+    background: transparent;
+    outline: none;
+    height: 35px;
+    color: black;
+    font-size: 15px
+}
+
+.contact-form input[type=submit]{
+    height: 40px;
+    color: #fff;
+    font-size: 20px;
+    background: #ce3232;
+    cursor: pointer;
+    border-radius: 25px;
+    border: none;
+    outline: none;
+    margin-top: 15%;
+}
